@@ -11,7 +11,7 @@ print(10 / 3)
 print(10 // 3)
     #  Modulo
 print(10 % 3)
-    #  Exponenet
+    #  Exponent
 print(10 ** 3)
 
 x = 10
