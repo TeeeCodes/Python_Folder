@@ -18,3 +18,18 @@ def square(n):
     return n * n
 
 main()
+
+name = input("What's your name? ")
+
+# Switch Case
+match name:
+    case "Harry":
+        print("Gryffindor")
+    case "Hermione":
+        print("Gryffindor")
+    case "Ron":
+        print("Gryffindor")
+    case "Draco":
+        print("Slytherin")
+    case _:
+        print("Who?")
