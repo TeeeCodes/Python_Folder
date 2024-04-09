@@ -3,11 +3,20 @@ loop_Num = [1, 2, 3, 4, 5]
 for item in loop_Num:
     print(item)
 
+# Range Function
+for ranged in range(5):
+    print(ranged)
+
 # While Loops
 i = 1
 while i <= 10:
     print(i * "*")
     i = i + 1
+
+    while True:
+        n = int(input("What's n? "))
+        if n > 0:
+            break
 
 # Lists
 names = ["John", "Bob", "Mosh", "Sam", "Mary"]
@@ -43,7 +52,3 @@ print(1 in numbers)
 
 # Tells you how many objects are in List
 print(len(numbers))
-
-# Range Function
-for ranged in range(5):
-    print(ranged)
